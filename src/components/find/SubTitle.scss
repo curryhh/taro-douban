@@ -1,0 +1,15 @@
+.sub-title {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.4rem;
+  .title {
+    font-size: 35px;
+  }
+  .total {
+    font-size: 30px;
+  }
+}

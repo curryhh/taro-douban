@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movie-list {
+  margin-top: 100px;
+  overflow: auto;
+  .movie {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 300px;
+    padding: 25.5px;
+    color: #999;
+    border-bottom: 1PX solid #f1f1f1;
+    .left {
+      align-self:center;
+      flex:0 0 195px;
+      height: 100%;
+      width: 195px;
+      margin-right: 0.5rem;
+      .taro-img{
+        height: 100%;
+        width: 100%;
+        img {
+          height: 100%;
+        }
+      }
+      
+    } 
+    .center {
+      flex:1;
+      font-size:24px;
+      overflow: hidden;
+
+      .title {
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+      }
+      .rating-wrap {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .avatars{
+        width: 100%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .right {
+     align-self:center;
+      flex: 0 0 150px;
+      width: 150px;
+      color: #ff6a95;
+      .collect-count {
+        font-size: 22.5px;
+        white-space: nowrap;
+      }
+      .btn-buy {
+        margin-top: 10.5px;
+        width: 127.5px;
+        height: 20px;
+        padding: 7.5px;
+        text-align: center;
+        font-size: 30px;
+        height: inherit;
+        font-weight: bold;
+        color: #ff6a95;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        border: 1PX solid #ff6a95;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &:active {
+          color: #fff;
+          background-color: #ff97b5;
+          border: 1PX solid #ff97b5;
+        }
+      }
+      .at-button{
+        line-height: 30px;
+      }
+    }
+    .want {
+      color: #ffad21;
+      .btn-buy {
+        border: 1PX solid #ffad21;
+        &:active {
+          background-color: #ffc664;
+          border: 1PX solid #ffc664;
+        }
+      }
+    }
+  }
+}
+// tab固定
+.at-tabs__header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: #fff;
+  z-index: 999;
+}
