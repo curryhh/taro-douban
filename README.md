@@ -56,7 +56,7 @@ taro build --type h5 --watch
 
 ### 页面展示
 
-![](https://github.com/curryhh/taro-douban/tree/master/img-folder/Home.jpg)
-![](https://github.com/curryhh/taro-douban/tree/master/img-folder/Find.jpg)
-![](https://github.com/curryhh/taro-douban/tree/master/img-folder/Detail.jpg)
+![](https://github.com/curryhh/taro-douban/tree/master/img-folder/Home.png)
+![](https://github.com/curryhh/taro-douban/tree/master/img-folder/Find.png)
+![](https://github.com/curryhh/taro-douban/tree/master/img-folder/Detail.png)
 
